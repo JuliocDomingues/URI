@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+cod, quant, valor = input().split(" ")
+cod = int(cod)
+quant = int(quant)
+valor = float(valor)
+cod2, quant2, valor2 = input().split(" ")
+cod2 = int(cod2)
+quant2 = int(quant2)
+valor2 = float(valor2)
+pagar = float(quant * valor)
+pagar2 = float(quant2 * valor2)
+total = float(pagar + pagar2)
+print('VALOR A PAGAR: R$ {:.2f}'.format(total))
